@@ -218,25 +218,25 @@ nav{
     border: none;
   }
   .slider .box1 {
-    background-color: #500033;
+    background-color: #500033fb;
   }
   .slider .box1 .inner {
-    background-color: #f07;
+    background-color: rgba(253, 253, 253, 0);
   }
   .slider .box1 .inner:after, .slider .box1 .inner:before {
-    background-color: rgba(255, 0, 119, .4);
+    background-color: rgba(255, 255, 255, 0);
   }
   .slider .box1 button {
     background-color: #f07;
   }
   .slider .box2 {
-    background-color: #000050;
+    background-color: #60c2c2b2;
   }
   .slider .box2 .inner {
-    background-color: #03f;
+    background-color: rgba(255, 255, 255, 0.021);
   }
   .slider .box2 .inner:after, .slider .box2 .inner:before {
-    background-color: rgba(0, 51, 255, .4);
+    background-color: rgba(255, 255, 255, 0);
   }
   .slider .box2 button {
     background-color: #03f;
@@ -245,10 +245,10 @@ nav{
     background-color: #00501d;
   }
   .slider .box3 .inner {
-    background-color: #0f4;
+    background-color: rgba(255, 255, 255, 0);
   }
   .slider .box3 .inner:after, .slider .box3 .inner:before {
-    background-color: rgba(0, 255, 68, .4);
+    background-color: rgba(240, 241, 241, 0);
   }
   .slider .box3 button {
     background-color: #0f4;
@@ -257,25 +257,25 @@ nav{
     background-color: #554d00;
   }
   .slider .box4 .inner {
-    background-color: #ff4e00;
+    background-color: #ffffff00;
   }
   .slider .box4 .inner:after, .slider .box4 .inner:before {
-    background-color: rgba(255, 78, 0, .4);
+    background-color: rgba(199, 191, 188, 0);
   }
   .slider .box4 button {
     background-color: #ff4e00;
   }
   .slider .box5 {
-    background-color: #300050;
+    background-color: #300050fb;
   }
   .slider .box5 .inner {
-    background-color: #8000ff;
+    background-color: #f7f7f700;
   }
   .slider .box5 .inner:after, .slider .box5 .inner:before {
-    background-color: rgba(128, 0, 255, .4);
+    background-color: rgba(240, 240, 240, 0);
   }
   .slider .box5 button {
-    background-color: #8000ff;
+    background-color: #f840e0;
   }
   .illustration {
     grid-column: -2;
@@ -511,7 +511,7 @@ nav{
       width: 2%;
       
   }
-  @media only screen and (max-width: 650px){
+  @media only screen and (max-width: 768px){
     .cardd{
       width: 60px;
       height: 60px;
@@ -565,4 +565,12 @@ nav{
     width: 2%;
     
 }
+  }
+  .css{
+    min-height: 300px;
+    width: 300px;
+  }
+  .css2{
+    min-height: 200px;
+    width: 200px;
   }
